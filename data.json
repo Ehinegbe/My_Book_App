@@ -1,0 +1,40 @@
+{
+    "headers": [
+        "Title",
+        "Author",
+        "Year",
+        "Genre"
+    ],
+    "rows": [
+        [
+            "Atomic Habits",
+            "James Clear",
+            2018,
+            "Personal Development"
+        ],
+        [
+            "Unlimited Power",
+            "Anthony Robins",
+            1986,
+            "Motivational"
+        ],
+        [
+            "Becoming Obama",
+            "Michelle Obama",
+            2018,
+            "Biography"
+        ],
+        [
+            "Mindset - The New Psychology of Success",
+            "Carol S. Dweck, Ph.D.",
+            2006,
+            "Education"
+        ],
+        [
+            "Elon Musk - Tesla, SpaceX and the Quest for a Fantastic Future",
+            "Ashlee Vance",
+            2015,
+            "Biography"
+        ]
+    ]
+}
