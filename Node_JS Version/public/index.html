@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book App</title>
+    <link rel="stylesheet" href="./scripts/book.css">
+</head>
+<body>
+    <header>
+        <h1>eTech Reading List 2025</h1>
+    </header>
+
+    <!--This is an empty table where the contents of our json file would 
+    be displayed-->
+    <table class="dataTable">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+
+    <!--This div includes form for adding books to the list-->
+    <div>
+        <h2>Add your favourite book to the list:</h2>
+        <form id="addForm">            
+            <input type="text" id="title" name="title" placeholder="Title"><br>
+            <span id="title_error"></span><br><br>            
+            <input type="text" id="author" name="author" placeholder="Author"><br>
+            <span id="author_error"></span><br><br>           
+            <input type="text" id="year" name="year" placeholder="Year"><br>
+            <span id="year_error"></span><br><br>            
+            <input type="text" id="genre" name="genre" placeholder="Genre"><br>
+            <span id="genre_error"></span><br><br>
+            <button type="submit">Add Book to Table</button>
+            <!--<input type="submit" value="Add to Table">-->
+        </form>          
+    </div>
+
+    <!--This div is for removing books from the list-->
+    <div>
+        <h2>Enter title of book to be deleted from the list:</h2>        
+        <input type="text" id="delBook" name="delBook" placeholder="Title to delete">
+        <button id="delButton">Delete Book</button>
+        <span id="delBook_error"></span><br>
+    </div>
+
+    <!--This footer is used across all the pages of our website-->  
+    <footer>
+        <p>&copy;Copyright 2025 by eTech. All rights reserved</p>
+    </footer>
+
+    <script src="./scripts/book.js"></script>
+</body>
+</html>
