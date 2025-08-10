@@ -48,4 +48,52 @@ tr:nth-child(even) td {
     background-color: #f3f3f3;
 }
   
+/* Form elements styling */
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #dee7e4;
+    color: rgb(17, 17, 17);
+    border: none;
+
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+/* Image styling */
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;    
+}
+
+/* h1 header styling */
+h1 {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+/* div tag styling */
+div {
+    padding: 6px;
+    text-align: center;
+    background: #262727;
+    color: white;
+    font-size: 15px;
+}
+  
+  
   
